@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app1nginxaks 
-          image: giitarcdemo.azurecr.io/web
+          image: giitarcdemo.azurecr.io/webapp
           ports:
           - containerPort: 80
